@@ -1,0 +1,151 @@
+html { 
+    width: 500px; 
+    font-family: "Montserrat", sans-serif; 
+}
+
+*{box-sizing: border-box;}
+
+p{
+    font-family: "Open Sans", serif;
+    line-height: 1.65;
+    justify-content: center;
+    _margin: 0.3em;
+    color: #393d41;
+}
+
+#header{
+    height: 15vh;
+    padding-top: 20px;
+    background-color: black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 1.5;
+}
+
+#header img{
+    width: 35%;
+    margin: 20px;
+}
+
+#slogan{ 
+    background-image: url("../images/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0;
+    padding: 30px 30px;
+    font-size: 1.5rem;
+    
+}
+
+.lighttitle, h4{
+   
+    color: #25a2c3
+}
+
+
+
+button{
+    padding: 20px 50px;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #f04c2f;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+
+#container{
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.65;
+    text-justify:auto;
+    margin: 50px;
+}
+
+#container img{ 
+    border-radius: 50%;
+    margin: 10px;
+    width: 70%;;
+    
+}
+
+.whitetext{
+    height: 35vh;
+    padding: 50px 20px;
+    margin-top: 40px;
+    color: white;
+    background-color: #e22d0e ;
+    text-align: center;
+    
+}
+
+
+.whitetext p, blockquote{
+    color: white;
+    font-size: 1.1em;
+}
+
+#bigger{
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+#boxes{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+#boxes div{
+    text-align: center;
+    margin: 35px;
+    border: 2px solid #dee1e3;
+}
+
+#boxes img{
+   width: 100%;
+}
+
+#boxes p{
+    margin-bottom: 30px;
+    text-align: center ;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+}
+
+footer{
+    background-color: #25a2c3;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+footer p{
+    color: white;
+    border-top: 1px solid white;
+    margin-top: 40px;
+    padding-top: 40px;
+    
+
+}
+
+a:link, a:visited{
+    color: white;
+    text-decoration: underline;
+}
+
+#info{
+    line-height: 1.65em;
+    margin-bottom: 10%;
+}
+
+hr{
+    width: 200px;
+}
