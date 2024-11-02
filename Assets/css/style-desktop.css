@@ -78,18 +78,18 @@ button{
 
 
 #container{
+    text-align: center;
     font-size: 1.2rem;
-    line-height: 1.65;
-    margin: 30px;
-    
+    line-height: 1.65;    
 }
 
 #container>div{
     display: inline-block;
+
 }
 
 #container img{ 
-    display: inline-block;
+  
     text-align: center;
     border-radius: 50%;
     margin: 10px;
@@ -98,6 +98,7 @@ button{
 #textblock{
     text-align: left;
     padding-bottom: 100px;
+    margin-left: 30px;
 
 
 }
