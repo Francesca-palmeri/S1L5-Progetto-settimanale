@@ -78,25 +78,25 @@ button{
 
 .whitetext{
     height: 35vh;
-    padding: 50px 20px;
-    margin-top: 40px;
     color: white;
     background-color: #e22d0e ;
     text-align: center;
+    padding: 40px 10px ;
+    margin-top: 40px;
     
 }
 
-
-.whitetext p, blockquote{
-    color: white;
-    font-size: 1.1em;
-}
-
 #bigger{
+    color: white;
     font-size: 1.5em;
     margin-top: 40px;
+    margin-bottom: 0;
 }
 
+#smaller{
+    color: white;
+    margin-top: 0;
+}
 #boxes{
     margin-top: 70px;
     margin-bottom: 70px;
@@ -121,31 +121,36 @@ button{
 }
 
 footer{
+    height: 40vh;
     background-color: #25a2c3;
-    color: white;
+    color: #c8e7f0;
     text-align: center;
     padding: 35px;
+    font-size: 1.2rem;
 }
-
-footer p{
-    color: white;
-    border-top: 1px solid white;
-    margin-top: 40px;
-    padding-top: 40px;
-    
-
-}
-
-a:link, a:visited{
-    color: white;
-    text-decoration: underline;
-}
-
 #info{
     line-height: 1.65em;
     margin-bottom: 10%;
 }
 
-hr{
-    width: 200px;
+#info h1, i{
+    color: white;
 }
+
+
+footer p{
+    color: #c8e7f0;
+    border-top: 1px solid #c8e7f0;
+    margin-top: 40px;
+    margin-left: 65px;
+    margin-right: 65px;
+    padding-top: 30px;
+
+}
+
+a:link, a:visited{
+    color: #c8e7f0;
+    text-decoration: underline;
+}
+
+
